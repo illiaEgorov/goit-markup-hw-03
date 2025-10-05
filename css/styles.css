@@ -21,6 +21,10 @@ img{
     max-width: 100%;
     height: auto;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 button{
     border: none;
     background: none;
@@ -223,7 +227,9 @@ p{
 
 /* .portfolio-list {}  */
 
-/* .portfolio-item {} */
+.portfolio-item {
+    border-bottom: #fff;
+}
 
 
 /* .portfolio-item-img {} */
