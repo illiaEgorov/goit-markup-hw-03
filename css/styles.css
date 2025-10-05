@@ -1,0 +1,246 @@
+a {
+    text-decoration: none;
+}
+/* стандартное правило стилей при верстке */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+header{
+    background-color: #E7E9FC;
+}
+.header-box {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    align-items: center;
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.contacts-list{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
+body {
+        background-color: #fff;
+        color: #434455;
+        font-family: "Roboto",sans-serif;
+}
+h1 {
+    color: #ffffff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+h3 {
+    color: #2E2F42;
+}
+p{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+  /* повторение стилей для параграфов (условия задания)• */
+.text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+} 
+
+/* menu*/
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+}
+.logo-studio-header {
+    color: #2e2f42;
+}
+.logo-studio-footer {
+    color: #f4f4fd;
+}
+.contacts {
+    font-style: normal;
+}
+.menu{
+    gap: 40px;
+}
+.menu-item-link {
+    padding: 24px 0;
+    display: block;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.menu-item-link:hover {
+    color: #404bbf;
+    text-decoration: underline;
+}
+.menu-item-link:focus {
+    color: #404bbf;
+    text-decoration: underline;
+}
+/* section address */
+.contacts-list {
+    /* padding: 24px 0; */
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    gap: 40px;
+}
+.contacts{
+    margin-left: auto;
+}
+.contacts-list:hover {
+    color: #404BBF;
+}
+.contacts-list:focus {
+    color: #404BBF;
+}
+/* first-section / button */
+.first-section {
+    background-color: #2E2F42;
+}
+.first-section-title {
+        color: #ffffff;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+.button-order {
+    font-family: "Roboto", sans-serif;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    /* border: none; */
+    cursor: pointer;
+}
+.button-order:hover {
+    background-color: #404BBF;
+}
+.button-order:focus {
+    background-color: #404BBF;
+}
+
+/* second section / strategy */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.h-style {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.strategy-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* our team/ section 3 */
+.team-list {
+    background-color: #f4f4fd;;
+}
+.team-section {
+    background-color: #F4F4FD;
+}
+.title-section {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}   
+.team-item {
+    background-color: #FFFFFF;
+    }
+
+/* .team-item-img {}  */
+
+/* .portfolio-list {}  */
+
+/* .portfolio-item {} */
+
+
+/* .portfolio-item-img {} */
+
+/*  Our Portfolio */
+.portfolio {
+    background-color: #E7E9FC;
+    color: #434455;
+}   
+
+/* #region footer */
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD; 
+    letter-spacing: 0.02em;
+}
