@@ -20,16 +20,14 @@ img{
     display: block;
     max-width: 100%;
 }
-.section {
-    padding: 188px 0;
-}
 button{
     border: none;
     background: none;
     cursor: pointer;
 }
-header{
-    background-color: #E7E9FC;
+
+.header-box {
+    background-color: #FFFFFF;
 }
 .header-box {
     border-bottom: 1px solid #e7e9fc;
@@ -149,15 +147,19 @@ p{
 }
 /* first-section / button */
 .first-section {
+    padding: 188px 0;
     background-color: #2E2F42;
+    
 }
+
 .first-section-title {
         color: #ffffff;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        max-width: 496px;
+        max-width: 496px; 
+        margin: auto;       
     }
 .button-order {
     font-family: "Roboto", sans-serif;
@@ -173,6 +175,7 @@ p{
     display: block;
     min-width: 169px;
     height: 56px;
+    margin: auto;
 }
 .button-order:hover {
     background-color: #404BBF;
@@ -219,6 +222,7 @@ p{
 /* our team/ section 3 */
 .section_our_team {
     padding: 120px 0;
+    background-color: #F4F4FD;
 }
 .title-our-team {
     margin-bottom: 72px;
