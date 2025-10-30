@@ -1,9 +1,15 @@
+
+/* стандартное правило стилей при верстке. Reset style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
 }
-/* стандартное правило стилей при верстке */
-ul {
-    list-style-type: none;
+
+h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -11,10 +17,6 @@ ul {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-}
-h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
 }
 img{
     display: block;
@@ -26,9 +28,6 @@ button{
     cursor: pointer;
 }
 
-.header-box {
-    background-color: #FFFFFF;
-}
 .header-box {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -58,22 +57,6 @@ body {
         color: #434455;
         font-family: "Roboto",sans-serif;
 }
-h1 {
-    color: #ffffff;
-}
-
-h3 {
-    color: #2E2F42;
-}
-p{
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em
-}
-
-  /* повторение стилей для параграфов (условия задания)• */
 .text {
     color: #434455;
     font-weight: 400;
@@ -202,6 +185,7 @@ p{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .strategy {
     display: flex;
